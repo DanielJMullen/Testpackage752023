@@ -1,0 +1,14 @@
+Package: Testpackage752023
+Title: Lab meeting 7-5-2023 test package
+Version: 1.0.0.0000
+Authors@R: person("Daniel", "Mullen", email = "dmullen@usc.edu", role = c("aut", "cre"))
+Description: This is a test package I developed to exhibit how an R package is created for the 7-5-2023 joint lab meeting. It consists of a pair of datasets containing A549 TADs and primary AT2-like AEC H3K27ac ChIP-seq peaks, as well as a funciton which identifies the regions in one dataset which overlap with another. 
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+biocViews:
+Depends: 
+    R (>= 2.10),
+    GenomicRanges
+LazyData: true

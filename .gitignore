@@ -47,3 +47,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+.Rproj.user
+
+# The data-noupload directory, containing raw files we don't want uploaded to the Github for space concerns:
+# Added manually
+data-noupload/
